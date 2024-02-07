@@ -101,6 +101,54 @@
             </div>
         </div>
     </section>
+    <section class="skills" id="skills">
+      <h1 class="heading">My <span>Skills</span></h1>
+      <div class="box-container">
+          <div class="box">
+              <div class="image">
+                  <div class="content">
+                    
+                    <h3>Web Design and Development</h3> 
+                  </div>
+              </div>
+          </div>
+  
+          <div class="box">
+              <div class="image">
+            
+                  <div class="content">  
+                    <h3>Software Design and Development</h3>  
+                  </div>
+              </div>
+          </div>
+  
+          <div class="box">
+              <div class="image">
+                  <div class="content">  
+                    <h3>System Analysis</h3>    
+                  </div>
+              </div>
+          </div>
+  
+          <div class="box">
+              <div class="image">
+                  <div class="content">
+                    <h3>Database Programming</h3>
+                      
+                  </div>
+              </div>
+          </div>
+          <div class="box">
+            <div class="image">
+                <div class="content">
+                  <h3>Data Analytics</h3>
+                
+                </div>
+            </div>
+        </div>
+      </div>
+  </section>
+    
       
     
   </template>
@@ -171,7 +219,7 @@ body {
     text-align: center;
 }
 span{
-    color: var(#00abf0);
+    color: #00abf0;
 }
 
 .logo {
@@ -461,46 +509,66 @@ span{
 }
 
 .about-content{
-    text-align: center;
-    width: 35rem;
+    
+    width: 50rem;
 }
 .about-content h3{
-    font-size: 2.6rem;
+    font-size: 3rem;
     color: #00abf0;
 }
 .about-content p{
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     color: #ededed;
     margin: 2rem 0 3rem;
 }
-.education{
+.education {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     min-height: auto;
     padding-bottom: 5rem;
-    background-color:#01214ae7;
+    background-color: #01214ae7;
     color: #ededed;
 }
-.education .education-row{
+
+.education .education-row {
     display: flex;
     flex-wrap: wrap;
-    gap: 5rem;
+    gap: -1.5rem;
 }
-.education-row .education-column,.experience-column{
-    flex: 1 1 40rem;
+
+.education-row .education-column,
+.education-row .experience-column {
+    flex: 40rem 50rem; /* Change flex properties to match */
+    max-width: 40rem; /* Set max width */
 }
-.education-column,.experience-column .title{
+.experience-column{
+    margin-top: 0rem;
+}
+.education-column .title,
+.experience-column .title {
     font-size: 2.5rem;
     margin: 0 0 1.5rem 2rem;
 }
+
 .education-column .education-box {
     border-right: .2rem solid #00abf0;
 }
+
 .experience-column .education-box {
-    border-left: .2rem solid #00abf0;
+    border-left: .1rem solid #00abf0;
 }
+.education-column .education-content:nth-child(2){
+    margin-top: 15rem;
+}
+.experience-column .education-content:nth-child(1){
+    margin-top: 15rem;
+}
+.experience-column .education-content:nth-child(2){
+    margin-top: 15rem;
+} 
+
 .education-box .education-content {
     position: relative;
     padding-left: 2rem;
@@ -510,6 +578,16 @@ span{
     position: absolute;
     top: 0;
     left: -1.1rem;
+    width: 2rem;
+    height: 2rem;
+    background: #00abf0;
+    border-radius: 50%;
+}
+.education-column .education-box .education-content::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 98%;
     width: 2rem;
     height: 2rem;
     background: #00abf0;
@@ -545,5 +623,39 @@ span{
 .education-content .content h3{
     font-size: 1.5rem;
 }
-
+.skills .box-container .box .image {
+    height: 5rem;
+    width: 10rem;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .skills .box-container {
+    display: flex;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 5.5rem;
+  }
+  .skills .box-container .box {
+    background-color: #01214ae7;
+    padding: 1rem;
+  }
+ 
+  .skill .box-container .box .image .content {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: #00abf0;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translateY(100%);
+  }
+  .skills .box-container .box .image .content h3 {
+    font-size: 1.1rem;
+    color: #00abf0;
+    text-transform: uppercase;
+  }
+  
 </style>
