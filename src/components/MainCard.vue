@@ -103,6 +103,7 @@
     </section>
     <section class="skills" id="skills">
       <h1 class="heading">My <span>Skills</span></h1>
+      <div class="skills-column1">
 
       <h3 class="title"><span>Professional</span> Skills</h3>
       <div class="box-container">
@@ -150,22 +151,121 @@
             </div>
         </div>
       </div>
+    </div>
+      <div class="skills-column2">
+                
+        <h3 class="title"><span>Tech</span> Stack</h3>
+        <div class="box-container">
+        
+
+        <div class="box">
+              <div class="image">
+                  <div class="content">
+                    <div class="pie-chart">
+                       <div class="slice slice1"></div>
+                       <div class="slice slice2"></div>
+                    </div>
+                    <h3><i class='bx bxl-java' ></i></h3> 
+                  </div>
+              </div>
+          </div>
+  
+          <div class="box">
+              <div class="image">
+                  <div class="content"> 
+                    <div class="pie-chart">
+                       <div class="slice slice1"></div>
+                       <div class="slice slice2"></div>
+                    </div> 
+                    <h3><i class='bx bxl-python' ></i></h3>  
+                  </div>
+              </div>
+          </div>
+  
+          <div class="box">
+              <div class="image">
+                  <div class="content">
+                    <div class="pie-chart">
+                       <div class="slice slice1"></div>
+                       <div class="slice slice2"></div>
+                    </div>
+                    <h3><i class='bx bxl-vuejs' ></i></h3>    
+                  </div>
+              </div>
+          </div>
+  
+          <div class="box">
+              <div class="image">
+                  <div class="content">
+                    <div class="pie-chart">
+                       <div class="slice slice1"></div>
+                       <div class="slice slice2"></div>
+                    </div>
+                    <h3><i class='bx bxl-nodejs' ></i></h3>
+                      
+                  </div>
+              </div>
+          </div>
+          <div class="box">
+            <div class="image">
+                <div class="content">
+                    <div class="pie-chart">
+                       <div class="slice slice1"></div>
+                       <div class="slice slice2"></div>
+                    </div>
+                  <h3><i class='bx bxl-javascript' ></i></h3>
+                
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="image">
+                <div class="content">
+                    <div class="pie-chart">
+                       <div class="slice slice1"></div>
+                       <div class="slice slice2"></div>
+                    </div>>
+                  <h3><i class='bx bxl-html5' ></i></h3>
+                
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="image">
+                <div class="content">
+                    <div class="pie-chart">
+                       <div class="slice slice1"></div>
+                       <div class="slice slice2"></div>
+                    </div>>
+                  <h3><i class='bx bxl-css3'></i></h3>
+                
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="image">
+                <div class="content">
+                    <div class="pie-chart">
+                       <div class="slice slice1"></div>
+                       <div class="slice slice2"></div>
+                    </div>
+                 <h3><i class='bx bxl-react' ></i></h3>
+                
+                </div>
+            </div>
+        </div>
+    </div>
+        
+      </div>
   </section>
     
       
     
   </template>
-  
   <script>
-  export default {
-    // Your Vue component logic goes here
-    data() {
-    return {
-      currentYear: new Date().getFullYear(),
-    };
-} 
-  }
+  
   </script>
+  
   
   <style lang="css">
     @import "./Main.css"
