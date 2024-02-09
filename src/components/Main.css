@@ -42,8 +42,8 @@ body {
     justify-content: space-between;
     align-items: center;
     z-index: 100;
-    background-color: #01214ae7;
-    color: #ededed;
+    background-color: var(--bg-color);
+    color: var(--text-color);
 }
 .heading{
     position: relative;
@@ -52,7 +52,7 @@ body {
     text-align: center;
 }
 span{
-    color: #00abf0;
+    color: var(--main-color);
 }
 
 .logo {
@@ -72,21 +72,21 @@ span{
 
 .navbar a:hover,
 .navbar a.active {
-    color: #00abf0;
+    color: var(--main-color);
 }
 
 #menu-icon {
     position: relative;
     font-size: 3.2rem;
-    color: #ededed;
+    color: var(--text-color);
     cursor: pointer;
     display: none;
 }
 
 .section {
     padding: 6rem 9%; /* Adjust padding as needed */
-    background-color: #112e42;
-    color: #ededed;
+    background-color: var(--second-bg-color);
+    color: var(--text-color);
 }
 
 .home {
@@ -95,8 +95,8 @@ span{
     justify-content: center;
     align-items: center;
     height: 100vh; /* Adjust height for full viewport coverage */
-    background-color: #01214ae7;
-    color: #ededed
+    background-color: var(--bg-color);
+    color: var(--text-color);
 }
 
 
@@ -107,8 +107,8 @@ span{
     align-items: center;
     gap: 2rem;
     padding-bottom: 6rem;
-    background-color: #112e42;
-    color: #ededed
+    background-color: var(--second-bg-color);
+    color: var(--text-color);
 }
 
 
@@ -124,8 +124,8 @@ span{
     font-size: 3.6rem;
     font-weight: 700;
     color: transparent;
-    -webkit-text-stroke: .7px #00abf0;
-    background-image: linear-gradient(#00abf0,#00abf0);
+    -webkit-text-stroke: .7px var(--main-color);
+    background-image: linear-gradient(var(--main-color),var(--main-color));
     background-repeat: no-repeat;
     -webkit-background-clip: text;
     background-position: -33rem 0;
@@ -140,7 +140,7 @@ span{
     left: 0;
     width: 0;
     height: 100%;
-    border-right: 2px solid #00abf0;
+    border-right: 2px solid var(--main-color);
     z-index: -1;
     animation: homeCursorText 6s linear infinite;
     animation-delay: 2s;
@@ -169,7 +169,7 @@ span{
 .home-content p {
     text-align: center;
     font-size: 3.5rem;
-    color: #ededed;
+    color: var(--text-color);
     margin-bottom: 2rem; /* Adjust margin as needed */
 }
 
@@ -189,7 +189,7 @@ span{
     height: 80px; /* Increase button height */
     background: transparent;
     font-size: 80px; /* Increase font size */
-    color: #00abf0;
+    color: var(--main-color);
     z-index: 1;
     overflow: hidden;
     transition: .5s;
@@ -197,7 +197,7 @@ span{
 }
 
 .btn-box a:hover {
-    color: #01214ae7;
+    color: var(--bg-color);
 }
 
 .btn-box a::before {
@@ -207,7 +207,7 @@ span{
     left: 0;
     width: 0;
     height: 100%;
-    background: #00abf0;
+    background: var(--main-color);
     z-index: -1;
     transition: 0.5s;
 }
@@ -218,12 +218,12 @@ span{
 
 .btn-box a i {
     font-size: 4.9rem;
-    color: #00abf0;
+    color: var(--main-color);
     transition: .5s;
 }
 
 .btn-box a:hover i {
-    color: #112e42;
+    color: var(--second-bg-color);
 }
 
 .btn-box a:hover:before {
@@ -248,13 +248,13 @@ span{
     background: transparent;
     border-radius: 50%;
     font-size: 20px;
-    color: #00abf0;
+    color: var(--main-color);
     z-index: 1;
     overflow: hidden;
     transition: .5s;
 }
 .home-sci a:hover {
-    color: #01214ae7;
+    color: var(--bg-color);
 }
 .home-sci a::before {
     content: '';
@@ -265,8 +265,7 @@ span{
     left: 0;
     width: 0;
     height: 100%;
-    background: #00abf0;
-    z-index: -1;
+    background: var(--main-color);
     transition: 0.5s;
 }
 .home-sci a:hover:before{
@@ -274,11 +273,11 @@ span{
 }
 .home-sci a i {
     font-size: 3.5rem;
-    color: #00abf0;
+    color: var(--main-color);
     transition: .5s;
 }
 .home-sci a:hover i {
-    color: #112e42;
+    color: var(--second-bg-color);
 }
 .home-sci a:hover:before ,
 .contact form .btn-box .btn:hover::before{
@@ -347,11 +346,11 @@ span{
 }
 .about-content h3{
     font-size: 4rem;
-    color: #00abf0;
+    color: var(--main-color);
 }
 .about-content p{
     font-size: 1.8rem;
-    color: #ededed;
+    color: var(--text-color);
     margin: 2rem 0 3rem;
 }
 .education {
@@ -361,8 +360,8 @@ span{
     flex-direction: column;
     min-height: auto;
     padding-bottom: 5rem;
-    background-color: #01214ae7;
-    color: #ededed;
+    background-color: var(--bg-color);
+    color: var(--text-color);
 }
 
 .education .education-row {
@@ -384,22 +383,24 @@ span{
 }
 
 .education-column .education-box {
-    border-right: .2rem solid #00abf0;
+    border-right: .2rem solid var(--main-color);
 }
 
 .experience-column .education-box {
-    border-left: .2rem solid #00abf0;
+    border-left: .2rem solid var(--main-color);
 }
 .education-column .education-content:nth-child(2){
-    margin-top: 33rem;
+    margin-top: 15rem;
 }
 .experience-column .education-content:nth-child(1){
-    margin-top: 25rem;
+    margin-top: 15rem;
 }
 .experience-column .education-content:nth-child(2){
-    margin-top: 33rem;
+    margin-top: 15rem;
 } 
-
+.education{
+    height: 100vh;
+}
 .education-box .education-content {
     position: relative;
     padding-left: 2rem;
@@ -411,7 +412,7 @@ span{
     left: -1.1rem;
     width: 2rem;
     height: 2rem;
-    background: #00abf0;
+    background: var(--main-color);
     border-radius: 50%;
 }
 .education-column .education-box .education-content::before{
@@ -421,7 +422,7 @@ span{
     left: 98.5%;
     width: 2rem;
     height: 2rem;
-    background: #00abf0;
+    background: var(--main-color);
     border-radius: 50%;
 }
 .education-content .content {
@@ -437,7 +438,7 @@ span{
     bottom: 0;
     width: 0;
     height: 100%;
-    background: #112e42;
+    background: var(--bg-color);
     z-index: -1;
 }
 .education-content .content:hover:before{
@@ -445,7 +446,7 @@ span{
 }
 .education-content .content .year{
     font-size: 1.9rem;
-    color: #00abf0;
+    color: var(--main-color);
     padding-bottom: .5rem;
 }
 .education-content .content .year i{
@@ -456,6 +457,10 @@ span{
 }
 .skills{
     height: 100vh;
+}
+.skills .heading{
+    color: var(--text-color);
+    margin-top: 10rem;
 }
 .skills .box-container .box .image {
     height: 12rem;
@@ -472,7 +477,7 @@ span{
     margin-top: 4rem;
   }
   .skills .box-container .box {
-    background-color: #01214ae7;
+    background-color: var(--bg-color);
     padding: 2rem;
   }
  
@@ -481,7 +486,7 @@ span{
     left: 0;
     bottom: 0;
     right: 0;
-    background-color: #00abf0;
+    background-color: var(--main-color);
     padding: 1rem;
     display: flex;
     align-items: center;
@@ -490,7 +495,7 @@ span{
   }
   .skills .box-container .box .image .content h3 {
     font-size: 2.5rem;
-    color: #00abf0;
+    color: var(--main-color);
     text-transform: uppercase;
   }
   .title{
@@ -498,16 +503,21 @@ span{
     text-align: center;
     font-size: 4rem;
   }
+  .skills-column2 .title{
+    margin-top: 4rem;
+  }
   .pie-chart {
     width: 100px; /* Adjust the width of the pie chart */
     height: 100px; /* Adjust the height of the pie chart */
     position: relative;
-    border-radius: 50%; /* Create a circular shape */
+    border-radius: 50%;
     overflow: hidden;
   }
   
   .slice {
     position: absolute;
+    justify-content: center;
+    margin-right: 2rem;
     width: 100%;
     height: 100%;
     clip: rect(0, 50px, 100px, 0); /* Adjust clip for each slice */
@@ -515,11 +525,107 @@ span{
   
   .slice1 {
     background-color: var(--second-bg-color); /* Color for slice 1 */
-    transform: rotate(45deg); /* Rotate slice 1 to start from 0 degrees */
+    transform: rotate(0deg); /* Rotate slice 1 to start from 0 degrees */
   }
   
   .slice2 {
-    background-color: var(--second-bg-color); /* Color for slice 2 */
-    transform: rotate(90deg); /* Rotate slice 2 to start from 0 degrees */
+    background-color: var(--main-color); /* Color for slice 2 */
+    transform: rotate(180deg); /* Rotate slice 2 to start from 0 degrees */
+  }
+  .slice3 {
+    background-color: var(--second-bg-color);
+    transform: rotate(45deg);
+  }
+  .skills .box-container .box .image .content h3 i{
+    font-size: 2rem;
+  }
+  .skills-column2 .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(19rem, 1fr));
+    gap: 4 rem;
+    
+  }
+  .skills-column2 .box-container .box .image{
+    height: 14rem;
+    width: 14rem;
+    overflow: hidden;
+    position: relative;
+    
+  }
+  .skills-column2 .box-container .box .image .content h3 i {
+    text-align: left;
+    margin-right: 3rem;
+    margin-top: .8rem;
+    font-size: 3.3rem;
   }
   
+  .java .slice3{
+    background-color: var(--main-color);
+    transform: rotate(35deg);
+  }
+  
+  .python .slice2{
+    background-color: var(--main-color);
+    transform: rotate(30deg);
+  }
+  .python .slice3{
+    background-color: var(--main-color);
+    transform: rotate(180deg);
+  }
+  .vue .slice3{
+    background-color: var(--main-color);
+    transform: rotate(85deg);
+  }
+  .node .slice3{
+    background-color: var(--main-color);
+    transform: rotate(85deg);
+  }
+  .js .slice3{
+    background-color: var(--main-color);
+    transform: rotate(30deg);
+  }
+  .html .slice3{
+    background-color: var(--main-color);
+    transform: rotate(20deg);
+  }
+  .css .slice3{
+    background-color: var(--main-color);
+    transform: rotate(20deg);
+  }
+  .react .slice3{
+    background-color: var(--main-color);
+    transform: rotate(85deg);
+  }
+  .portfolio{
+    background-color: var(--bg-color);
+    height: 100vh;
+  }
+  .portfolio .box-container .box .image {
+    height: 85rem;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .portfolio .box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    gap: 4rem;
+  }
+  .portfolio .box-container .box {
+    background-color: var(--second-bg-color);
+    padding: 1rem;
+    box-shadow: var(--box-shadow);
+  }
+  
+  
+  .portfolio .box-container .box .image .content h2 {
+    font-size: 2rem;
+    color: var(--text-color);
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+  }
+  
+  .portfolio .box-container .box .content .btn-box  p {
+    font-size: 1.2rem;
+    color: var(--bg-color);
+  }

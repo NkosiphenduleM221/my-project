@@ -161,9 +161,10 @@
         <div class="box">
               <div class="image">
                   <div class="content">
-                    <div class="pie-chart">
+                    <div class="pie-chart java">
                        <div class="slice slice1"></div>
                        <div class="slice slice2"></div>
+                       <div class="slice slice3"></div>
                     </div>
                     <h3><i class='bx bxl-java' ></i></h3> 
                   </div>
@@ -173,9 +174,10 @@
           <div class="box">
               <div class="image">
                   <div class="content"> 
-                    <div class="pie-chart">
+                    <div class="pie-chart python">
                        <div class="slice slice1"></div>
                        <div class="slice slice2"></div>
+                       <div class="slice slice3"></div>
                     </div> 
                     <h3><i class='bx bxl-python' ></i></h3>  
                   </div>
@@ -185,9 +187,10 @@
           <div class="box">
               <div class="image">
                   <div class="content">
-                    <div class="pie-chart">
+                    <div class="pie-chart vue">
                        <div class="slice slice1"></div>
                        <div class="slice slice2"></div>
+                       <div class="slice slice3"></div>
                     </div>
                     <h3><i class='bx bxl-vuejs' ></i></h3>    
                   </div>
@@ -197,9 +200,10 @@
           <div class="box">
               <div class="image">
                   <div class="content">
-                    <div class="pie-chart">
+                    <div class="pie-chart node">
                        <div class="slice slice1"></div>
                        <div class="slice slice2"></div>
+                       <div class="slice slice3"></div>
                     </div>
                     <h3><i class='bx bxl-nodejs' ></i></h3>
                       
@@ -209,9 +213,10 @@
           <div class="box">
             <div class="image">
                 <div class="content">
-                    <div class="pie-chart">
+                    <div class="pie-chart js">
                        <div class="slice slice1"></div>
                        <div class="slice slice2"></div>
+                       <div class="slice slice3"></div>
                     </div>
                   <h3><i class='bx bxl-javascript' ></i></h3>
                 
@@ -221,10 +226,11 @@
         <div class="box">
             <div class="image">
                 <div class="content">
-                    <div class="pie-chart">
+                    <div class="pie-chart html">
                        <div class="slice slice1"></div>
                        <div class="slice slice2"></div>
-                    </div>>
+                       <div class="slice slice3"></div>
+                    </div>
                   <h3><i class='bx bxl-html5' ></i></h3>
                 
                 </div>
@@ -233,10 +239,11 @@
         <div class="box">
             <div class="image">
                 <div class="content">
-                    <div class="pie-chart">
+                    <div class="pie-chart css">
                        <div class="slice slice1"></div>
                        <div class="slice slice2"></div>
-                    </div>>
+                       <div class="slice slice3"></div>
+                    </div>
                   <h3><i class='bx bxl-css3'></i></h3>
                 
                 </div>
@@ -245,9 +252,10 @@
         <div class="box">
             <div class="image">
                 <div class="content">
-                    <div class="pie-chart">
+                    <div class="pie-chart react">
                        <div class="slice slice1"></div>
                        <div class="slice slice2"></div>
+                       <div class="slice slice3"></div>
                     </div>
                  <h3><i class='bx bxl-react' ></i></h3>
                 
@@ -258,6 +266,59 @@
         
       </div>
   </section>
+  <section class="portfolio" id="portfolio">
+      <h1 class="heading">My <span>Project</span></h1>
+      <div class="box-container">
+          <div class="box">
+              <div class="image">
+                  <div class="content">
+                    <h2>Company Website</h2>
+                    <p>This project is a website development it showcases various technologies such as HTML,CSS,JavaScript,React.Js and Node.Js used in the development process.</p>
+                  </div>
+              </div>
+          </div>
+  
+          <div class="box">
+              <div class="image">
+                  <div class="content">
+                    <h2>Banking App</h2>
+                    <p>This project is a banking application implemented in Python. It includes features such as account management, transactions, and more.</p>
+                  </div>
+              </div>
+          </div>
+  
+          <div class="box">
+              <div class="image">
+                  
+                  <div class="content">
+                    <h2>Metric Converter</h2>
+                    <p>The Metric Converter project provides a tool for converting between different metric units. It's a useful utility for various conversion tasks.</p> 
+                  </div>
+              </div>
+          </div>
+  
+          <div class="box">
+              <div class="image">
+                  
+                  <div class="content">
+                    <h2>Financial Calculator</h2>
+                    <p>This Financial Calculator project helps users with various financial calculations, such as compound interest, loan payments, and other financial planning calculations.</p>  
+                  </div>
+              </div>
+          </div>
+          <div class="box">
+            <div class="image">
+                
+                <div class="content">
+                    <h2><span></span>Tax Calculator</h2>
+                    <p>This Tax Calculator project helps users with various tax calculations, such as tax rebates, uif calculations, and other tax calculations.</p>
+                    
+                </div>
+            </div>
+        </div>
+      </div>
+  </section>
+  
     
       
     
