@@ -619,13 +619,14 @@ span{
   
   
   .portfolio .box-container .box .image .content h2 {
-    font-size: 2rem;
-    color: var(--text-color);
+    font-size: 4rem;
+    color: var(--main-color);
     letter-spacing: 0.1rem;
     text-transform: uppercase;
   }
   
-  .portfolio .box-container .box .content .btn-box  p {
-    font-size: 1.2rem;
-    color: var(--bg-color);
+  .portfolio .box-container .box .content  p {
+    font-size: 3.2rem;
+    color: var(--text-color);
+    letter-spacing: 0.1rem;
   }
