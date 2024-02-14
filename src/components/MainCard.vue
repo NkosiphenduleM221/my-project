@@ -318,10 +318,100 @@
         </div>
       </div>
   </section>
-  
-    
+  <section class="contact show-animate" id="contact">
+        <div class="container">
+            <span class="big-circle"></span>
+            <img src="img/shape.png" class="square" alt="" />
+            <div class="form">
+              <div class="contact-info">
+                <h3 class="title">Let's get in touch</h3>
+                <p class="text">
+                  Get in touch with me via these forms of communication:
+                </p>
       
+                <div class="info">
+                  <div class="information">
+                    <i class='bx bxs-location-plus' ></i>
+                    <p>6 Mahali Street, Delft, Cape Town, 7490</p>
+                  </div>
+                  <div class="information">
+                    <i class='bx bxs-envelope'></i>
+                    <p>abenathimdingi02@gmail.com</p>
+                  </div>
+                  <div class="information">
+                    <i class='bx bx-phone' ></i>
+                    <p>0606388088</p>
+                  </div>
+                </div>
+      
+                <div class="social-media">
+                  <p>Connect with us :</p>
+                  <div class="social-icons">
+                    <a href="#">
+                      <i class='bx bxl-whatsapp' ></i>
+                    </a>
+                    
+                    <a href="https://www.linkedin.com/in/nkosiphendule-mdingi-957220232/">
+                      <i class='bx bxl-linkedin' ></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+      
+              <div class="contact-form">
+                <span class="circle one"></span>
+                <span class="circle two"></span>
+      
+                <div>
+                  <form id="contactForm">
+                    <h3 class="title">Contact us</h3>
+              
+                    <!-- Full name -->
+                    <div class="input-container">
+                      <input type="text" id="name" name="name" class="input" required />
+                      <label for="name">Full name</label>
+                      <span class="error-message" id="name-error">Please enter your name</span>
+                    </div>
+              
+                    <!-- Email -->
+                    <div class="input-container">
+                      <input type="email" id="email" name="email" class="input" required />
+                      <label for="email">Email</label>
+                      <span class="error-message" id="email-error">Please enter a valid email address</span>
+                    </div>
+              
+                    <!-- Phone -->
+                    <div class="input-container">
+                      <input type="tel" id="phone" name="phone" class="input" required />
+                      <label for="phone">Phone</label>
+                      <span class="error-message" id="phone-error">Please enter a valid phone number</span>
+                    </div>
+              
+                    <!-- Message -->
+                    <div class="input-container textarea">
+                      <textarea id="message" name="message" class="input" required></textarea>
+                      <label for="message">Message</label>
+                      <span class="error-message" id="message-error">Please enter your message</span>
+                    </div>
+              
+                    <input type="submit" value="Submit" class="btn" />
+                  </form>
+                </div>
+              </div>
+            </div>
+                  
     
+    </section>
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2023 by Nkosiphendule Mdingi | All Rights Reserved</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bxs-to-top'></i></a>
+        </div>
+    </footer>
   </template>
   <script>
   
